@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>VES Vinci Facilities</title>
+  <meta name="description" content="Entreprise spécialisée dans la maintenance CVC et multitechnique. Présentation de nos services, références et moyens de contact." />
+
+  <!-- Favicon -->
+  <link rel="icon" href="onglet_icon.png" />
+
+  <!-- Feuille de styles principale -->
+  <link rel="stylesheet" href="Sandbox_V1_css.css" />
+
+  <!-- Open Graph (aperçus sur réseaux sociaux) -->
+  <meta property="og:title" content="VES Vinci Facilities" />
+  <meta property="og:description" content="Découvrez nos services, nos références et contactez-nous." />
+  <meta property="og:type" content="website" />
+</head>
+
+<body>
+  <!-- Lien d’accès rapide (accessibilité) -->
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- En‑tête / Navigation -->
+  <header class="header" role="banner">
+    <div class="container header__inner">
+      <a href="#" class="logo" aria-label="Accueil — VES">
+        <!-- Tu peux remplacer par un <img> si tu as un logo -->
+        <!--<span class="logo__mark">⟢</span>--> 
+        <a href="#" class="logo">
+          <img src="img/logo_vinci_facilities-rbg_2.png" alt="Logo" class="logo__img">
+        </a><img src="img/VES_logo.png" alt="Logo" width="150px">
+      </a>
+
+      <nav class="nav" aria-label="Navigation principale">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul id="menu" class="nav__list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#references">Références</a></li>
+          <li><a href="#apropos">À propos</a></li>
+          <li><a href="#contact">Contacts</a></li>
+          <li><a class="btn btn--small" href="https://looma.vinci-facilities.com">Connexion</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Compteur -->
+  <script>
+    
+    if (!sessionStorage.getItem("visited")) {
+      sessionStorage.setItem("visited", "true");
+
+      fetch("https://script.google.com/macros/s/AKfycbySUnjB1jFrBDirGQ8dzxbCeKJMicjpCykJGP89e_GeEhtLwIt2D7BiZN4NO51xB0Z4fQ/exec?url=" + encodeURIComponent(window.location.href) + "&ua=" + navigator.userAgent)
+        .then(response => console.log("visite enregistrée"))
+        .catch(error => console.error("erreur tracking", error));
+    }
+    //fetch("https://script.google.com/macros/s/AKfycbySUnjB1jFrBDirGQ8dzxbCeKJMicjpCykJGP89e_GeEhtLwIt2D7BiZN4NO51xB0Z4fQ/exec?url=" + encodeURIComponent(window.location.href) + "&ua=" + navigator.userAgent)
+    //  .then(response => console.log("visite enregistrée"))
+    //  .catch(error => console.error("erreur tracking", error));
+
+  </script>
+  
+  <!-- Section Hero -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1>Proximité et expertise à votre service</h1>
+      <p class="lead">
+        Nous concevons, réalisons et maintenons vos solutions avec exigence de résultat :
+        qualité, délais, sécurité et performance.
+      </p>
+      <div class="hero__cta">
+        <a class="btn" href="#services">Découvrir nos services</a>
+        <a class="btn btn--ghost" href="#contact">Demander un devis</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contenu principal -->
+  <main id="contenu" class="main" role="main">
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <p class="titre_alt">Nos services</p>
+        <div class="grid grid--3" style="margin-bottom: 0px;">
+          <article class="card">
+            <h3>Exploitation et maintenance</h3>
+            <p>Contrats de services, engagements de performance, indicateurs et reporting.</p>
+            <!--<a class="link" href="#">En savoir plus</a>-->
+          </article>
+          <article class="card">
+            <h3>Rénovation et travaux</h3>
+            <p>Rénovation des installations CVC, réduction des coûts, augmentation du confort des usagers.</p>
+            <a class="link" href="#ici">En savoir plus</a>
+          </article>
+          <article class="card">
+            <h3>Un 3e truc on verra</h3>
+            <p>Contrats ...</p>
+            <div class="toggle-wrap">
+              <input type="checkbox" id="toggle-2" class="toggle-input">
+              <label for="toggle-2" class="toggle-label">
+                Afficher / masquer le texte
+              </label>
+              <div class="toggle-panel">
+                <p>
+                  Texte déroulant : il apparaît au clic et se replie au clic suivant, sans JavaScript.
+                </p>
+              </div>
+            </div>
+            <a class="link" href="#">En savoir plus</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="apropos" class="section">
+      <!-- DOMAINES D'INTERVENTION -->
+      <div class="container" style="text-align: justify;">
+        <br><br>
+        <p class="titre_alt">Nos domaines d'intervention</p>
+        <p>Notre secteur d'intervention</p>
+        <br><iframe title="RIVP" width="100%" height="650px" src="https://app.powerbi.com/view?r=eyJrIjoiZjNlNzQzNTQtNmEyOS00M2U2LTllYjUtZmUxMDY3Y2FlMGQ3IiwidCI6ImNhZTdkMDYxLTA4ZjMtNDBkZC04MGMzLTNjMGI4ODg5MjI0YSIsImMiOjh9" frameborder="0" allowFullScreen="true"></iframe><br>
+        <p style="text-align: justify;">Grâce à plus de 60 ans d’expérience et à des équipes qualifiées (monteurs, chauffagistes, frigoristes, techniciens CVC), VES intervient sur l’ensemble du cycle de vie des installations énergétiques. Notre expertise couvre la maintenance, la rénovation, la performance énergétique et l’accompagnement des collectivités, bailleurs sociaux, copropriétés et bâtiments publics.</p><br>
+        <ul class="list-check">
+          <li><strong>Maintenance & Exploitation des installations thermiques et multitechnique</strong><br>VES assure la maintenance des installations gaz, fioul, électriques, bois ou vapeur en prenant en charge à la fois les actions préventives, correctives et réglementaires, depuis l’analyse des équipements jusqu’à la planification des interventions, tout en garantissant le suivi des performances via la GMAO et la continuité de service. Nos équipes garantissent la tenue des obligations normatives et la sécurité des occupants en s’appuyant sur des procédures éprouvées, des moyens humains qualifiés et des outils de mesure adaptés. 
+          </li><br>
+          <li id="ici"><strong>Rénovation énergétique & travaux CVC</strong><br>Spécialisée dans la modernisation des chaufferies et sous‑stations, VES met en œuvre une méthodologie d’exécution précise comprenant les phases d’étude, de phasage, de dépose, d’installation, de mise en eau, de mise en service et de finition. Les travaux sont organisés de manière à assurer la continuité de service, la sécurité des biens et des personnes, et à minimiser les coupures chauffage et ECS grâce à un séquençage technique maîtrisé.
+          </li><br>
+          <div class="toggle-wrap">
+            <input type="checkbox" id="toggle-1" class="toggle-input">
+            <label for="toggle-1" class="toggle-label">Afficher plus</label>
+            <div class="toggle-panel">
+              <br>
+              <div class="grid grid--2">
+                <div class="well">
+                  <p style="text-align: left;"><strong>Rénovation complète de chaufferies</strong><br> - Remplacement de chaudière gaz, fioul, bois ou vapeur, <br> - Modernisation des réseaux hydrauliques et équipements, <br> - Optimisation des régulations et automatismes, <br> - Installation solaire thermique<br><br><strong>Transition énergétique</strong><br> - Conversion fioul à gaz, <br> - Conversion fioul/gaz à RCU (Vapeur / Eau surchauffé), <br> - Intégration d’énergies renouvelables (PAC, hybridation, solaire thermique, récupération de chaleur)</p>
+                </div>
+                <figure class="ref" style="size: auto;">
+                  <img src="img/img_tr1.png">
+                </figure>
+              </div>
+            </div>
+          </div><br>
+          <li><strong>Intégration d’énergies renouvelables (ENR)</strong><br>VES déploie des solutions énergétiques bas carbone telles que les pompes à chaleur, les systèmes hybrides gaz/PAC, le solaire thermique ou la géothermie. Ces installations sont intégrées dans une démarche globale comprenant études préalables, implantation, raccordements hydrauliques et électriques, réglages de régulation et optimisation énergétique post‑travaux.
+          </li><br>
+          <li><strong>Performance énergétique & suivi avancé</strong><br>Mise en place de capteurs, campagnes de mesures, diagnostic énergétique, suivi statistique des rendements, équilibrages hydrauliques, analyses d’eau ECS/chauffage, programmes de réduction des consommations.
+          </li><br>
+          <li><strong>Mise en conformité réglementaire</strong><br>Prise en charge des obligations légales : contrôle disconnecteurs, mesure des débits aérauliques, traitement de l’eau, sécurité gaz, rammonage, ICPE.
+          </li>
+        </ul>
+      </div>
+
+      <!-- ENGAGEMENTS RSE -->
+      <div class="container">
+        <br>
+        <p class="titre_alt">Nos engagements RSE</p>
+        <p style="text-align: justify;">La politique RSE de VES s’inscrit dans les engagements VINCI Energies et repose sur cinq axes structurants : éthique, environnement, ressources humaines, ancrage territorial et gouvernance. Au-delà des obligations réglementaires, VES met en œuvre des actions concrètes visant à réduire son impact carbone, améliorer la qualité de vie au travail, renforcer la sécurité, et promouvoir des pratiques responsables.</p>
+        <div class="grid grid--3">
+          <div class="well_service">
+            <p><img src="img/icon_env.svg" alt="Icon">
+              <br><strong>Environnement & réduction de l’empreinte carbone</strong><br>- Transition progressive de la flotte automobile vers des véhicules <strong>100% électriques</strong>.<br>- Mise en place de solutions techniques sobres : récupération de chaleur, PAC, optimisation régulation, réglages réseaux.<br>- Sensibilisation aux gestes écoresponsables pour l’ensemble des collaborateurs.
+            </p>
+          </div>
+          <div class="well_service">
+            <p><img src="img/icon_dechet.svg" alt="Icon">
+              <br><strong>Gestion responsable des déchets</strong><br>- Tri selon les <strong>7 flux</strong> réglementaires.<br>- Suivi administré via <strong>Trackdéchets</strong> pour tous les déchets dangereux.<br>- Traçabilité complète (BSDD), reporting client, valorisation systématique lorsque possible.
+            </p>
+          </div>
+          <div class="well_service">
+            <p><img src="img/icon_securite.svg" alt="Icon">
+              <br><strong>Qualité de Vie au Travail & sécurité</strong><br>- Formation continue des équipes : jusqu’à <strong>6% de la masse salariale</strong> dédiée chaque année.<br>- Prévention sécurité renforcée : causeries, EPI, analyse d’accidents, culture sécurité VINCI.<br>- Programmes intégration collaborateurs (verticale et transversale), juste rémunération équitable et transparente.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Références -->
+    <section id="references" class="section section--alt">
+      <div class="container">
+        <p class="titre_alt">Références</p>
+        
+    <!-- Radios cachés -->
+    <input type="radio" name="ref" id="ref1" checked hidden>
+    <input type="radio" name="ref" id="ref2" hidden>
+    <input type="radio" name="ref" id="ref3" hidden>
+
+        <div class="grid grid--3">
+          <figure class="ref">
+            <label for="ref1"><img src="img/Rueil.jpg" alt="Logo" class="logo__ref"></label>
+            <figcaption style="margin: 7px;">
+              <label for="ref1">
+                <strong>Ville de Rueil Malmaison</strong> — Maintenance CVC et multitechnique des bâtiments communaux et de 6 groupes scolaires.
+              </label>
+            </figcaption>
+          </figure>
+
+          <figure class="ref">
+            <label for="ref2"><img src="img/Versailles.jpg" alt="Logo" class="logo__ref"></label>
+            <figcaption style="margin: 7px;">
+              <label for="ref2">
+                <strong>Ville de Versailles</strong> — Exploitation et maintenance des bâtiments de la ville.
+              </label>
+            </figcaption>
+          </figure>
+
+          <figure class="ref">
+            <label for="ref3"><img src="img/Sannois.jpg" alt="Logo" class="logo__ref"></label>
+            <figcaption style="margin: 7px;">
+              <label for="ref3">
+                <strong>Centre Cyrano de Bergerac de la ville de Sannois</strong> — Rénovation des équipements de Chauffage, Ventilation, Climatisation et réhabilitation énergétique.
+              </label>
+            </figcaption>
+          </figure>
+        </div>
+        <br>
+        <!-- Contenu dynamique -->
+        <div class="well_ref">
+          <!-- Ville de Rueil -->
+          <div class="well__content well__rueil">
+            <p class="titre_alt">Ville de Rueil Malmaison</p>
+            <p><strong>Exploitation et maintenance (P2, P3, GER) CVC/Multi technique de bâtiments de 6 groupes scolaire et 1 bâtiment administratif pour une durée de 10 ans.</strong></p>
+            <div>
+              <table class="table-invisible">
+                <tr>
+                  <td><p style="text-align: justify; margin: 1.25rem ;">Lauréats en 2023 du MGPE de Rueil‑Malmaison, nous accompagnons la ville dans un plan pluriannuel de rénovation et d’amélioration énergétique de son patrimoine. Le marché porte sur 7 établissements et vise ~30 % d’économies d’énergie à périmètre constant, avec des actions ciblées sur la performance des installations, le pilotage et le suivi des usages. <br>Au‑delà des gains mesurables, l’enjeu est d’offrir un meilleur confort aux usagers et de réduire l’empreinte carbone du territoire, dans une logique de résultats contractualisés et de proximité avec les services municipaux.</p></td>
+                  <td><img src="img/logo_rueil.png" alt="Logo" class="logo__ville"></td>
+                </tr>
+              </table><br>
+              <table class="table-invisible">
+                <tr>
+                  <td style="vertical-align: top;"><strong>Le besoin client</strong><br>
+                  <ul class="list-check" style="margin-left: 2rem ; margin-right: 2rem;">
+                    <li>Diminuer les performances énergétiques sur la durée en optimisant le confort été et hiver</li>
+                    <li>Revaloriser et réinsérer le patrimoine dans son environnement</li>
+                  </ul></td>
+                  <td style="vertical-align: top;"><strong>Notre solution</strong><br>
+                  <ul class="list-check" style="margin-left: 2rem ; margin-right: 2rem;">
+                    <li>Une solution adaptée à chaque site : traitement de l'enveloppe, Eclairage par LED, Production raccordée au RCU</li>
+                    <li>Transformation numérique : GTB, robinets thermostatiques connectés, compteurs d'énergie et eau connectés, capteurs de température et CO2</li>
+                    <li>Sensibilisation des usagers aux gestes écoresponsables</li>
+                  </ul></td>
+                  <td style="vertical-align: top;"><strong>Engagements</strong><br>
+                  <ul class="list-check" style="margin-left: 2rem ; margin-right: 2rem;">
+                    <li>Engagement supérieur à l'objectif d'économie d'énergie cible 30 %</li>
+                    <li>10 ans d'engagement de performance</li>
+                    <li>IPMVP</li>
+                    <li>Confort thermique</li>
+                    <li>Production photovoltaïque garantie</li>
+                  </ul></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- Ville de Versailles -->
+          <div class="well__content well__versailles">
+            <p class="titre_alt">Ville de Versailles</p>
+            <p><strong>Exploitation et maintenance (P2, P3, P5) des installations CVC des bâtiments communaux de la Ville de Versailles.</strong></p>
+            <div>
+              <table class="table-invisible">
+                <tr>
+                  <td><p style="text-align: justify; margin: 1.25rem;">Dans le cadre du marché d’exploitation–maintenance de la Ville de Versailles, nous assurons la conduite, la maintenance préventive et corrective ainsi que le suivi des installations de chauffage, ventilation et climatisation d’un parc d’environ 70 bâtiments communaux.<br>Le contrat s’inscrit dans une démarche de performance globale visant  l’optimisation du fonctionnement des équipements, la fiabilisation des installations et la maîtrise durable des consommations énergétiques, en étroite collaboration avec les services techniques de la Ville.</p>
+                  </td>
+                  <td>
+                    <img src="img/logo_versailles.png" alt="Logo" class="logo__ville" style="height: 60px;">
+                  </td>
+                </tr>
+              </table><br>
+              <table class="table-invisible">
+                <tr>
+                  <td style="vertical-align: top;"><strong>Le besoin client</strong><br>
+                    <ul class="list-check" style="margin-left: 2rem; margin-right: 2rem;">
+                      <li>Garantir la continuité de service des installations CVC</li>
+                      <li>Maîtriser les coûts d’exploitation et de maintenance</li>
+                      <li>Améliorer la performance énergétique du patrimoine communal</li>
+                    </ul></td>
+                  <td style="vertical-align: top;">
+                    <strong>Notre solution</strong><br>
+                    <ul class="list-check" style="margin-left: 2rem; margin-right: 2rem;">
+                      <li>Maintenance préventive et corrective structurée via la GMAO</li>
+                      <li>Optimisation des réglages, de la régulation et du pilotage des installations</li>
+                      <li>Conseil et accompagnement technique de la Ville dans la durée</li>
+                    </ul>
+                  </td>
+                  <td style="vertical-align: top;">
+                    <strong>Engagements</strong><br>
+                    <ul class="list-check" style="margin-left: 2rem; margin-right: 2rem;">
+                      <li>Suivi de la performance et reporting régulier</li>
+                      <li>Fiabilisation des équipements et amélioration continue</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <!-- Centre Cyrano Sannois -->
+          <div class="well__content well__sannois">
+            <p class="titre_alt">Centre Cyrano de Bergerac – Ville de Sannois</p>
+            <p><strong>Travaux de rénovation des installations de Chauffage, Ventilation
+                et Climatisation (CVC) et réhabilitation énergétique du Centre Cyrano de Bergerac.</strong>
+            </p>
+            <div>
+              <table class="table-invisible">
+                <tr>
+                  <td>
+                    <p style="text-align: justify; margin: 1.25rem;">
+                      Dans le cadre de cette opération, nous sommes intervenus sur le Centre Cyrano de Bergerac,
+                      équipement culturel majeur de la Ville de Sannois, afin de moderniser les installations
+                      techniques et d’améliorer significativement la performance énergétique du bâtiment.
+                      <br><br>
+                      Les travaux ont porté sur la rénovation des systèmes CVC, la mise en conformité des équipements et l’optimisation de leur fonctionnement, avec pour objectif de garantir un meilleur confort thermique pour les usagers tout en réduisant les consommations énergétiques et les coûts d’exploitation associés.
+                    </p>
+                  </td>
+                  <td>
+                    <img src="img/Logo_Ville_Sannois.svg.png" alt="Logo Ville de Sannois" class="logo__ville">
+                  </td>
+                </tr>
+              </table><br>
+              <table class="table-invisible">
+                <tr>
+                  <td style="vertical-align: top;"><strong>Le besoin client</strong><br>
+                    <ul class="list-check" style="margin-left: 2rem; margin-right: 2rem;">
+                      <li>Moderniser des installations CVC vieillissantes</li>
+                      <li>Améliorer la performance énergétique du bâtiment</li>
+                      <li>Garantir le confort des usagers</li>
+                    </ul></td>
+                  <td style="vertical-align: top;">
+                    <strong>Notre solution</strong><br>
+                    <ul class="list-check" style="margin-left: 2rem; margin-right: 2rem;">
+                      <li>Rénovation et remise à niveau des équipements CVC</li>
+                      <li>Optimisation des systèmes de régulation et de pilotage</li>
+                      <li>Mise en conformité des installations techniques</li>
+                    </ul></td>
+                  <td style="vertical-align: top;">
+                    <strong>Bénéfices apportés</strong><br>
+                    <ul class="list-check" style="margin-left: 2rem; margin-right: 2rem;">
+                      <li>Amélioration du confort thermique et de la qualité d’air</li>
+                      <li>Réduction des consommations énergétiques</li>
+                      <li>Pérennisation et fiabilisation des installations</li>
+                    </ul></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </section>
+
+    <!-- À propos -->
+    <section id="apropos" class="section">
+      <div class="container">
+        <p class="titre_alt">À propos</p>
+        <div class="grid grid--2">
+          <div>
+            <p style="text-align: justify;">
+              La société VES, créée en 1961, bénéficie d’une expérience reconnue dans l’exploitation et la maintenance des réseaux et installations énergétiques. Spécialisée dans les bâtiments publics et collectivités, l’entreprise développe ses activités dans l’ouest francilien. 
+              <br>VES appartient aujourd’hui à la marque VINCI Facilities, dédiée au Facility management et à la maintenance CVC/Multi technique des bâtiments.
+            </p>
+            <ul class="list-check">
+              <li>Localisation du siège : OSNY (Val d’Oise) </li>
+              <li>Effectif : Près de 70 collaborateurs</li>
+              <li>Chiffre d’affaires : 14,7 M€</li>
+              <li>Certifiée en préfecture pour l’utilisation des fluides frigorigènes</li>
+              <li>Titulaire d’une expertise énergétique</li>
+              <li>Membre depuis 2003 de Global Compact, initiative des Nations unies visant à inciter les entreprises du monde entier à adopter une attitude socialement responsable</li>
+              <li>6% de la masse salariale consacrés à la formation en 2025</li>
+            </ul>
+          </div>
+          <div class="well">
+            <h3>Chiffres clés</h3>
+            <div class="zone">
+                <img src="img/Collaborateurs.png" alt="collaborateurs" class="image-positionnee" style="height: 100px;">
+            </div>
+            <div class="zone">
+                <img src="img/Chiffre_d'affaires.png" alt="ca" class="image-positionnee2" style="height: 100px;">
+            </div>
+            <a class="logo" style="margin-top: 50px;">
+              <img src="img/Ile-de-France-1111.png" alt="Logo" class="img_idf">
+            </a>
+          </div>
+        </div>
+        <div class="grid">
+          <br>
+          <h4>VES détient toutes les certifications nécessaires à la conduite de ses activités dans les règles de l’art et au niveau de qualité requis.</h4>
+          <div class="grid--3" style="align-items: center;">
+            <div class="tooltip">
+              <a class="logo">
+                <img src="img/Qualibat.jpg" alt="Logo" class="qualif" style="height: 190px;">
+                <span class="tooltiptext" style="width: 500px;">QUALIBAT est un organisme visant à promouvoir les bonnes pratiques et reconnaître l’excellence des professionnels de la construction et de la rénovation. <br>Gage de confiance, le savoir-faire des détenteurs de ces qualifications est jugé par d’autres acteurs du bâtiment qui attestent en toute indépendance, transparence et impartialité de leurs capacités à réaliser des chantiers dans les règles de l’art. Pour maintenir un très haut niveau d’exigence et de qualité, QUALIBAT est connecté à la mutation de certains métiers afin de constamment faire évoluer son offre de qualifications.<br>
+                Réalisation des systèmes de ventilation mécanique contrôlée, simple ou double flux, en habitat individuel, collectif et tertiaire de surface de plancher supérieure à 1000 m2.</span>
+              </a>
+            </div>
+            <div class="tooltip">
+              <a class="logo">
+                <img src="img/qualibat-rge-.jpg" alt="Logo" class="qualif">
+                <span class="tooltiptext" style="width: 500px;">Le label RGE - Reconnu Garant de l'Environnement - est une certification destinée aux entreprises du bâtiment spécialisées dans les travaux de rénovation énergétique et dans l'installation d'équipements faisant appel aux énergies renouvelables. Ainsi, notre entreprise s'engage dans une démarche de progrès continu.</span>
+              </a>
+            </div> 
+            <div class="tooltip">
+              <a class="logo">
+                <img src="img/iso_certificats.jpg" alt="Logo" class="qualif">
+                <span class="tooltiptext" style="width: 700px;"><img src="img/iso_9001-2.png" alt="Logo" class="qualif" style="height:130px">La norme <strong>ISO 9001</strong> est la référence mondiale en matière de management de la qualité et constitue un levier essentiel pour optimiser les performances, la rentabilité et le potentiel commercial des entreprises. ISO 9001 définit les étapes clés à l’adoption d’un système de management de la qualité. Cette norme est conçue pour aider les entreprises à répondre aux besoins et aux attentes de leurs clients et partenaires, conformément aux principes de management de la qualité définis par l’Organisation internationale de normalisation (ISO).<br><br>
+                <img src="img/iso_14001-2.png" alt="Logo" class="qualif" style="height:130px;">La norme <strong>ISO 14001</strong> offre aux entreprises des lignes directrices pour réduire leur impact environnemental. Elle permet la conception et la mise en place d’un système de management environnemental visant à mesurer et à améliorer l’utilisation des ressources naturelles, tout en réduisant les émissions de gaz à effet de serre.<br><br>
+                <img src="img/iso_45001-2.png" alt="Logo" class="qualif" style="height:130px">La norme <strong>ISO 45001</strong> est conçue pour améliorer la santé et la sécurité au travail, elle contribue au bien-être des entreprises tout en offrant un cadre structuré pour gérer leurs responsabilités en matière de santé et de sécurité. La norme ISO 45001 offre aux entreprises un cadre efficace pour gérer et améliorer leurs risques et performances en matière de santé et de sécurité au travail. Ce système de management s’intègre directement aux processus clés de l’entreprise, encourageant une implication accrue de la direction. Il met également en avant l’importance d’engager le personnel dans la mise en œuvre et le fonctionnement du système, favorisant ainsi une culture de sécurité partagée.</span>
+              </a>
+            </div>
+          </div>
+          <!--
+          <div class="tooltip">
+            <img src="img/Qualibat.jpg" alt="Image">
+            <span class="tooltiptext">Voici mon info-bulle personnalisée</span>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!-- Contact -->
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <h2 class="titre_alt">Nous contacter</h2>
+        <!-- Contacts directs -->
+        <div class="contacts">
+          <h3>Contacts directs</h3>
+          <div class="grid grid--3">
+            <div class="contact-card">
+              <strong>Service Commerce</strong>
+              <p>📧 <a href="mailto:commerce.ves@vinci-facilities.com">commerce.ves@vinci-facilities.com</a><br></p>
+            </div>
+            <div class="contact-card">
+              <strong>Responsable commercial</strong>
+              <p>Jérôme Bédier<br>📧 <a href="mailto:jerome.bedier@vinci-facilities.com">jerome.bedier@vinci-facilities.com</a><br>📞 06 88 30 40 37</p>
+            </div>
+            <div class="contact-card">
+              <strong>Un troisième contact à choisir</strong>
+              <p>📧 <a href="mailto:support@entreprise.fr">gnvhft@entreprise.fr</a><br>📞 01 23 45 67 91</p>
+            </div>
+          </div>
+        </div>
+        <!--form-->
+        <br>
+        <p>Ou bien envoyez votre demande ci-dessous :</p>
+        <form class="form" action="#" method="post" novalidate>
+          <div class="grid grid--2">
+            <div class="form__group">
+              <label for="nom">Nom</label>
+              <input type="text" id="nom" name="nom" required />
+            </div>
+            <div class="form__group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required />
+              <p id="emailError" style="color:red; display:none; font-size:14px;">Merci de saisir une adresse email valide.</p>
+            </div>
+          </div>
+          <br>
+          <div class="form__group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+            <input type="text" name="website" style="display:none">
+          </div>
+          <br>
+          <button class="btn" type="submit">Envoyer</button>
+        </form>
+
+<!-- Script -->
+        <!--<script>
+        document.querySelector(".form").addEventListener("submit", async function(e) {
+          e.preventDefault();
+          const data = {
+            nom: document.getElementById("nom").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+          };
+          await fetch("https://script.google.com/macros/s/AKfycbwQ_EDiJg5dU6FqM0DouKqbGDoPtcWjduYtY09JCurntgHWsQ1nw_sKpOQ9m4ypbW_T7g/exec", {
+            method: "POST",
+            body: JSON.stringify(data)
+          });
+          alert("Message envoyé !");
+        });
+        </script> 
+        <script>
+        document.querySelector(".form").addEventListener("submit", async function(e) {
+          e.preventDefault();
+
+          const data = {
+            nom: document.getElementById("nom").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value
+          };
+
+          try {
+            const response = await fetch("https://script.google.com/macros/s/AKfycbz2T3GaNfUQ7S5d0q47nlXV32ffM13SQ6wkWVQs25dYSI2Fww8pmYdEtQGUT13wExg9FQ/exec", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json"
+              },
+              body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+              alert("Message envoyé !");
+            } else {
+              alert("Erreur lors de l'envoi");
+            }
+
+          } catch (error) {
+            console.error(error);
+            alert("Erreur réseau");
+          }
+        });
+        </script>-->
+
+        <script>
+        document.querySelector(".form").addEventListener("submit", async function(e) {
+          e.preventDefault();
+
+          const nom = document.getElementById("nom").value.trim();
+          const email = document.getElementById("email").value.trim();
+          const message = document.getElementById("message").value.trim();
+
+          const emailError = document.getElementById("emailError");
+
+          // Regex email simple
+          const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+          // Reset message
+          emailError.style.display = "none";
+
+          // Vérification email
+          if (!emailRegex.test(email)) {
+            emailError.style.display = "block";
+            return;
+          }
+
+          // Vérification autres champs
+          if (!nom || !message) {
+            alert("Merci de remplir tous les champs.");
+            return;
+          }
+
+          const formData = new FormData();
+          formData.append("nom", document.getElementById("nom").value);
+          formData.append("email", document.getElementById("email").value);
+          formData.append("message", document.getElementById("message").value);
+
+          try {
+            const response = await fetch("https://script.google.com/macros/s/AKfycbwz3D6E5Kg4UYWOGCZ-F3mYJMreMqJRZ49w2c24iftXKcwJp8m7jN5OzOm_p8uEQLJVyg/exec", {
+              method: "POST",
+              body: formData
+            });
+
+            const result = await response.text();
+
+            alert("Votre message a bien été envoyé.");
+            document.querySelector(".form").reset();
+          } catch (error) {
+            console.error(error);
+            alert("Erreur");
+          }
+        });
+        </script>
+        
+<!-- -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Bas de page -->
+  <section id="bas" class="section_bas">
+    <div class="container bas__inner">
+      <a class="logo">
+        <img src="img/VF_RGB_W.png" alt="Logo" class="img_bas">
+      </a>
+      <a class="grid--2-bas">
+        <a class="txt_bas">
+          <h4 style="text-align: right;">Localisation</h4>
+          <p style="text-align: right;">ZAC des Beaux Soleils <br> 9, Chaussée Jules César (Bâtiment 602) <br>95520 OSNY</p>
+        </a>
+        <a href="https://www.linkedin.com/company/vinci-facilities-ves-emr/posts/?feedView=all">
+          <img src="img/logo-linkedin-white.png" alt="Logo" class="img_bas2">
+        </a>
+      </a>
+    </div>
+  </section>
+
+  <!-- Pied de page -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+      <p>&copy; <span id="annee"></span> — VES</p>
+      <nav aria-label="Liens secondaires">
+        <a href="Mentions_legales.html">Mentions légales • </a> <!--à compléter : ref-->
+        <a href="#">Politique de confidentialité</a> <!--à compléter : ref-->
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Script minimal (mise à jour de l'année + menu mobile) -->
+  <script>
+    // Année courante
+    document.getElementById('annee').textContent = new Date().getFullYear();
+
+    // Toggle menu mobile
+    const toggle = document.querySelector('.nav__toggle');
+    const menu = document.getElementById('menu');
+    if (toggle && menu) {
+      toggle.addEventListener('click', () => {
+        const expanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!expanded));
+        menu.classList.toggle('is-open');
+      });
+    }
+  </script>
+</body>
+</html>
+
+
+
